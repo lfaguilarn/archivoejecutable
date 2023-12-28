@@ -33,8 +33,9 @@ public class ventana extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Bienvenidos");
 
-        jButton1.setText("jButton1");
+        jButton1.setText("Presiona Aquí");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -46,23 +47,23 @@ public class ventana extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(109, 109, 109)
+                .addGap(149, 149, 149)
                 .addComponent(jButton1)
-                .addContainerGap(218, Short.MAX_VALUE))
+                .addContainerGap(154, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(119, 119, 119)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(146, Short.MAX_VALUE)
                 .addComponent(jButton1)
-                .addContainerGap(158, Short.MAX_VALUE))
+                .addGap(131, 131, 131))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       JOptionPane.showMessageDialog(null, "Prueba 1", "prueba", 2);
+       JOptionPane.showMessageDialog(null, "Prueba 1", "prueba", 3);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     
