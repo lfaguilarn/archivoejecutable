@@ -63,7 +63,7 @@ public class ventana extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       JOptionPane.showMessageDialog(null, "Prueba 7", "Error", 2);
+       JOptionPane.showMessageDialog(null, "Juan 2", "Informacion", 1);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     
